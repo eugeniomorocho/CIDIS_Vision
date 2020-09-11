@@ -26,7 +26,8 @@
         android:layout_height="150dp"
         android:layout_marginStart="32dp"
         android:layout_marginLeft="32dp"
-        android:foreground="@drawable/ic_menu_camera"
+        android:alpha="0.7"
+        android:gravity="center|top"
         android:text="DETECT"
         app:layout_constraintBottom_toTopOf="@+id/button3"
         app:layout_constraintStart_toStartOf="parent"
@@ -38,6 +39,8 @@
         android:layout_height="150dp"
         android:layout_marginEnd="32dp"
         android:layout_marginRight="32dp"
+        android:alpha="0.7"
+        android:gravity="center|top"
         android:text="GALLERY"
         app:layout_constraintBaseline_toBaselineOf="@+id/button"
         app:layout_constraintEnd_toEndOf="parent" />
@@ -49,6 +52,8 @@
         android:layout_marginStart="32dp"
         android:layout_marginLeft="32dp"
         android:layout_marginBottom="150dp"
+        android:alpha="0.7"
+        android:gravity="center|top"
         android:text="RESULTS"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -59,17 +64,10 @@
         android:layout_height="150dp"
         android:layout_marginEnd="32dp"
         android:layout_marginRight="32dp"
+        android:alpha="0.7"
+        android:gravity="center|top"
         android:text="SETTINGS"
         app:layout_constraintBaseline_toBaselineOf="@+id/button3"
         app:layout_constraintEnd_toEndOf="parent" />
 
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="68dp"
-        android:layout_height="62dp"
-        android:visibility="visible"
-        app:layout_constraintBottom_toBottomOf="@+id/button"
-        app:srcCompat="@drawable/ic_menu_camera"
-        tools:layout_editor_absoluteX="150dp"
-        tools:visibility="visible" />
 </androidx.constraintlayout.widget.ConstraintLayout>
